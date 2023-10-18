@@ -85,3 +85,11 @@ nav ul li a{
 .navbar a:link,.navbar a:visited{
     color: #f4f4f4;
 }
+
+.profile{
+        
+        display: block;
+        border: 3px solid #e63946;
+        width: 100%;
+    
+}
