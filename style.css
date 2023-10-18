@@ -80,6 +80,7 @@ nav ul li a{
 .hh{
     color: whitesmoke;
     text-align: center;
+    margin-top: 6rem;
 }
 
 .navbar a:link,.navbar a:visited{
@@ -92,10 +93,10 @@ nav ul li a{
         text-align: center;
 
         border: 3px solid #e63946;
-        width: 80%;
+        width: 60%;
 
-        margin-left: 10%;
-        margin-right: 10%;
+        margin-left: 20%;
+        margin-right: 20%;
     
     
 }
@@ -107,11 +108,18 @@ nav ul li a{
 
 .img{
     margin: 1rem 0;
+    margin-top: 4rem;
+    object-fit: contain;
+    width: 80%;
+    height: 80%;
+
 }
 
 .details{
     margin: 1rem 0;
     color: black;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
     
 }
 
@@ -125,6 +133,7 @@ ul{
     width: 60%;
     margin-left: 20%;
     margin-right: 20%;
+    
 }
 
 .copyright{
@@ -133,6 +142,6 @@ ul{
     background-color: #e63946;
     color: white;
     position: absolute left;
-    margin-right: 10%;
-    margin-left: 10%;
+    margin-right: 20%;
+    margin-left: 20%;
 }
