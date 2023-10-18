@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.header{
+    height: 95vh;
+    background: grey;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+
+
+.navbar .navitems{
+    float: right;
+    padding: 2rem;
+}
+
+nav ul li{
+    
+    display: inline-block;
+    text-transform: uppercase;
+    /* margin: 0.2em 0.5em; */
+    font-size: 1rem;
+}
+
+.navbar .navitems .navitem{
+    color: whitesmoke;
+    margin: 0px 0.5rem;
+}
+
+.navbar a:hover{
+    border-bottom: 1px solid white;
+}
+
+p , li{
+    font-size: 1.6rem;
+    margin-bottom: 0.5em;
+    letter-spacing: 0.15em;  
+}
+
+nav ul li a{
+    text-decoration: none;
+    padding-bottom: 0.8rem;
+}
+
+
+.navbar::after{
+    content: '';
+    display: block;
+    clear: both;
+}
