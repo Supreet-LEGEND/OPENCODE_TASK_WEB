@@ -89,7 +89,50 @@ nav ul li a{
 .profile{
         
         display: block;
+        text-align: center;
+
         border: 3px solid #e63946;
-        width: 100%;
+        width: 80%;
+
+        margin-left: 10%;
+        margin-right: 10%;
     
+    
+}
+
+.name{
+    color: whitesmoke;
+    margin: 1rem 0;
+}
+
+.img{
+    margin: 1rem 0;
+}
+
+.details{
+    margin: 1rem 0;
+    color: black;
+    
+}
+
+ul{
+    list-style-type: none;
+}
+
+.detail-item{
+    background-color: rgb(189, 189, 189);
+    margin: 1rem 0;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.copyright{
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #e63946;
+    color: white;
+    position: absolute left;
+    margin-right: 10%;
+    margin-left: 10%;
 }
