@@ -2,20 +2,29 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: grey;
+    background: rgb(138, 138, 138);
 }
 
 html{
     font-size: 62.5%;
+    font-family: 'Barlow', sans-serif;
 }
 
 .header{
     padding: 1rem 1rem;
+    /* display: flex; */
+    justify-content: space-between;
+    /* border: 1px solid white; */
 }
 
 .navbar .navitems{
     float: right;
-    padding: 2rem;
+    /* display: inline; */
+    margin: 0.5em 0.5em;
+}
+
+.navbar {
+    margin-top: 1.5rem;
 }
 
 nav ul li{
@@ -23,7 +32,12 @@ nav ul li{
     display: inline-block;
     text-transform: uppercase;
     /* margin: 0.2em 0.5em; */
-    font-size: 1rem;
+    font-size: 1.4rem;
+}
+
+.navitems .navitem a:hover{
+    color: #fc9ca4;
+    font-size: 1.5rem;
 }
 
 .navbar .navitems .navitem{
@@ -31,9 +45,6 @@ nav ul li{
     margin: 0px 0.5rem;
 }
 
-.navbar a:hover{
-    border-bottom: 1px solid white;
-}
 
 p , li{
     font-size: 1.6rem;
@@ -73,14 +84,24 @@ nav ul li a{
     background-color: white;
 }
 
+.btn-primary:hover{
+    background-color: #fc9ca4;
+    color: white;
+}
+
 .bh{
     margin-bottom: 2rem;
 }
 
 .hh{
+    /* border: 1px solid white; */
     color: whitesmoke;
     text-align: center;
-    margin-top: 6rem;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+
+    /* margin-top: 6rem; */
+    
 }
 
 .navbar a:link,.navbar a:visited{
@@ -89,21 +110,22 @@ nav ul li a{
 
 .profile{
         
-        display: block;
         text-align: center;
-
         border: 3px solid #e63946;
         width: 60%;
-
         margin-left: 20%;
         margin-right: 20%;
     
-    
+}
+
+.profile-template{
+    margin-top: 1rem;
 }
 
 .name{
     color: whitesmoke;
     margin: 1rem 0;
+    font-size: 2rem;
 }
 
 .img{
@@ -134,6 +156,10 @@ ul{
     margin-left: 20%;
     margin-right: 20%;
     
+}
+
+.profile-template .container {
+    background-color: rgb(116, 115, 115);
 }
 
 .copyright{
